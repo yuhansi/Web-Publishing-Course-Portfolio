@@ -24,6 +24,8 @@
 - Create a webpage with news articles that is similar to the format of the actual practical exam.
 - Photo credit to USC.
 
+### Practical Mid-term Exam
+
 ### Assignment 5 - Project Milestone: Fronts and navs
 - Initial project frontpage, including navigation graphics.
 - Photo credit to Virtual Reality Los Angeles, PennApps, Google Dev Fest Ukraine, USC Hackers.
