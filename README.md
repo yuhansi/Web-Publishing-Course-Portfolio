@@ -33,3 +33,7 @@
 ### Lab 3 - Info Page with CSS-based Navigation
 - Create a page with css-styled elements, including rollover nav, with external stylesheet.
 - Photo credit to VRLA.
+
+### Lab 4 - Interactive Behaviors page
+- Build a page that uses behaviors, including rollover, prompt alert windows, form, striped-down browser window and hidden elements, to create interactivity in the page.
+- Photo credit to Android
