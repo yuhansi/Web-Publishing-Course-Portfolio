@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Interactive Behaviors Page</title>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+function MM_setTextOfTextfield(objId,x,newText) { //v9.0
+  with (document){ if (getElementById){
+    var obj = getElementById(objId);} if (obj) obj.value = newText;
+  }
+}
+</script>
+</head>
+<style>
+		body{
+			background-image:url("front.jpg");
+			background-repeat:no-repeat;
+			background-size:100%;
+			}
+		.body h3{
+			padding-top:50px;
+			padding-left:400px;
+			font-family:Constantia, "Trebuchet MS", Helvetica, sans-serif;
+			font-size:36px;
+			}
+		.body .not{
+			width:200px;
+			padding-left:200px;
+			padding-top:150px;
+			}
+		.body .ap{
+			width:200px;
+			padding-top:150px;
+			padding-left:200px;
+			}
+		.body .doze{
+			width:200px;
+			padding-top:150px;
+			padding-left:200px;
+			}
+		.paragraph1{
+			text-align:center;
+			font-size:18px;
+			width:425px;
+			height:300px;
+			margin-left:475px;
+			margin-top:0px;
+			margin-bottom:-50px;
+			padding:5px;
+			border:2px solid black;
+			background-color:#c4c4c4;
+			border-radius:15px;
+			opacity:0.75;
+			visibility:hidden;
+			}
+		.paragraph2{
+			text-align:center;
+			font-size:18px;
+			width:425px;
+			height:300px;
+			margin-left:475px;
+			margin-top:-315px;
+			padding:5px;
+			border:2px solid black;
+			background-color:#c4c4c4;
+			border-radius:15px;
+			opacity:0.75;
+			visibility:hidden;
+			}
+		.paragraph3{
+			text-align:center;
+			font-size:18px;
+			width:425px;
+			height:300px;
+			margin-left:475px;
+			margin-top:-315px;
+			padding:5px;
+			border:2px solid black;
+			background-color:#c4c4c4;
+			border-radius:15px;
+			opacity:0.75;
+			visibility:hidden;
+			}
+		form{
+			font-size:14px;
+			}
+		p{
+			font-family:"Trebuchet MS", Helvetica, sans-serif;
+			}
+	</style>
+<body onLoad="MM_preloadImages('not1.jpg''ap1.png','doze2.jpg')">
+	<div class="body">
+		<h3>What's new in <a href="#" style="text-decoration:none; color:#eea508;" onClick="MM_popupMsg('Android 6.0 \&quot;Marshmallow\&quot; is the newest version of the Android mobile operating system!')">android marshmallow?</a></h3>
+        <div class="paragraph1" id="paragraph1">
+        	<p><em><strong><a href="#" onClick="MM_openBrWindow('http://www.theverge.com/2015/10/5/9444039/google-now-on-tap-feature-android-m-hands-on-video','','width=500,height=800')">Now on Tap</a></strong></em> anticipates what you need in the moment. With a simple tap, you can get cards with useful information and apps that feed your need to know.</p>
+            <form name="form1" method="post" action="">
+			<p>Like this feature?</p>
+			<p>
+  				<input name="r2" type="radio" id="radio" onClick="MM_setTextOfTextfield('messagebox1','','Now on tap is likely the killer feature in marshmallow!')" value="radio">
+  				<label for="radio"></label>
+				Yes!
+            </p>
+			<p>
+			  <input name="r2" type="radio" id="radio2" onClick="MM_setTextOfTextfield('messagebox1','','Click the link above to know more about now on tap!')" value="radio2">
+  				<label for="radio2"></label>
+				Nope.
+            </p>
+			<p>
+			  <input name="r2" type="radio" id="radio3" onClick="MM_setTextOfTextfield('messagebox1','','Click the link above to know more about now on tap!')"  value="radio3">
+  				<label for="radio3"></label>
+				Not sure..
+            </p>
+            <p>
+    			<label for="messagebox"></label>
+   			  <input type="text" name="messagebox" id="messagebox1" style="width:400px;">
+  			</p>
+            </form>
+        </div>
+        <div class="paragraph2" id="paragraph2">
+        	<p>No need to give apps access all the time. Android Marshmallow lets you define what you want to share and when. Turn <em><strong><a href="#" onClick="MM_openBrWindow('http://www.howtogeek.com/230683/how-to-manage-app-permissions-on-android-6.0/','','width=500,height=800')">App Permissions</a></strong></em> off at any time, too.</p>
+            <form name="form1" method="post" action="">
+			<p>Like this feature?</p>
+			<p>
+                <input name="r2" type="radio" id="radio" onClick="MM_setTextOfTextfield('messagebox2','','App permissions let you manage device in your own way!')" value="radio">
+  				<label for="radio"></label>
+				Yes!
+            </p>
+			<p>
+  				<input name="r2" type="radio" id="radio2" onClick="MM_setTextOfTextfield('messagebox2','','Click the link above to know more about app permissions!')" value="radio2">
+  				<label for="radio2"></label>
+				Nope.
+            </p>
+			<p>
+  				<input name="r2" type="radio" id="radio3" onClick="MM_setTextOfTextfield('messagebox2','','Click the link above to know more about app permissions!')"  value="radio3">
+  				<label for="radio3"></label>
+				Not sure..
+            </p>
+            <p>
+    			<label for="messagebox"></label>
+    			<input type="text" name="messagebox" id="messagebox2" style="width:400px;">
+  			</p>
+            </form>
+        </div>
+        <div class="paragraph3" id="paragraph3">
+        	<p>When your device is at rest, <em><strong><a href="#" onClick="MM_openBrWindow('http://bgr.com/2015/10/06/android-6-0-marshmallow-doze-mode-battery-life/','','width=500,height=800')">Doze</a></strong></em> automatically puts it into a sleep state. So your phone can still set off your alarm in the morning even if you forgot to charge it. Phew!</p>
+            <form name="form1" method="post" action="">
+			<p>Like this feature?</p>
+			<p>
+  				<input name="r2" type="radio" id="radio" onClick="MM_setTextOfTextfield('messagebox3','','Doze can extend standby battery life up to 2X longer!')" value="radio">
+  				<label for="radio"></label>
+				Yes!
+            </p>
+			<p>
+  				<input name="r2" type="radio" id="radio2" onClick="MM_setTextOfTextfield('messagebox3','','Click the link above to know more about doze!')" value="radio2">
+  				<label for="radio2"></label>
+				Nope.
+            </p>
+			<p>
+  				<input name="r2" type="radio" id="radio3" onClick="MM_setTextOfTextfield('messagebox3','','Click the link above to know more about doze!')"  value="radio3">
+  				<label for="radio3"></label>
+				Not sure..
+            </p>
+            <p>
+    			<label for="messagebox"></label>
+    			<input type="text" name="messagebox" id="messagebox3" style="width:400px;">
+  			</p>
+            </form>
+        </div>
+        <img src="not1.jpg" class="not" id="Image1" onClick="MM_showHideLayers('paragraph1','','show');MM_showHideLayers('paragraph3','','hide');MM_showHideLayers('paragraph2','','hide')" onMouseOver="MM_swapImage('Image1','','not2.jpg',1)" onMouseOut="MM_swapImgRestore()">
+        <img src="ap1.png" class="ap" id="Image2" onClick="MM_showHideLayers('paragraph2','','show');MM_showHideLayers('paragraph1','','hide');MM_showHideLayers('paragraph3','','hide')" onMouseOver="MM_swapImage('Image2','','ap2.jpg',1)" onMouseOut="MM_swapImgRestore()">
+        <img src="doze1.jpg" class="doze" id="Image3" onClick="MM_showHideLayers('paragraph3','','show');MM_showHideLayers('paragraph2','','hide');MM_showHideLayers('paragraph2','','hide');MM_showHideLayers('paragraph1','','hide')" onMouseOver="MM_swapImage('Image3','','doze2.jpg',1)" onMouseOut="MM_swapImgRestore()">
+	</div>
+</body>
+</html>
