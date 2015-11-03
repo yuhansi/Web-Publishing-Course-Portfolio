@@ -36,4 +36,4 @@
 
 ### Lab 4 - Interactive Behaviors page
 - Build a page that uses behaviors, including rollover, prompt alert windows, form, striped-down browser window and hidden elements, to create interactivity in the page.
-- Photo credit to Android
+- Photo credit to Android.
