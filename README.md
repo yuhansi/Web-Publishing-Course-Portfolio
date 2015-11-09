@@ -38,6 +38,6 @@
 - Build a page that uses behaviors, including rollover, prompt alert windows, form, striped-down browser window and hidden elements, to create interactivity in the page.
 - Photo credit to Android.
 
-### Lab5 - Interactive Review
+### Lab 5 - Interactive Review
 - Interactive Review featuring Behaviors, Effects, and/or jQuery UI components.
 - Photo credit to Google Store, CNET
