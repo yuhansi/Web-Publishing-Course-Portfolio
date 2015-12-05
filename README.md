@@ -41,3 +41,6 @@
 ### Lab 5 - Interactive Review
 - Interactive Review featuring Behaviors, Effects, and/or jQuery UI components.
 - Photo credit to Google Store, CNET
+
+### Final Course Project
+- TechFinder is the total finder for tech events targeting college students.
