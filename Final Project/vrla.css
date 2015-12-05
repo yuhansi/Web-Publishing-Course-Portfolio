@@ -1,0 +1,182 @@
+#outercontainer
+	{
+		margin: o auto;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+	}
+#main
+	{
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+
+.container
+	{
+    	padding-top: 1px;
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 1px;
+  	}
+.topnav
+	{
+		padding-left: 30px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		height: 40px;
+	}
+.topnav a
+	{
+		color:#ffffff;
+		text-decoration:none !important;
+		display:inline;
+    	transition:.3s;
+    	padding-left: 10px;
+    	padding-right: 10px;
+	}
+.large
+	{
+		font-size:18px !important;
+	}
+.black
+	{
+		color:#fff !important;
+		background-color:#000 !important
+	}
+.card-8
+	{
+		box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important}
+	}
+.menu *
+	{
+    	padding: 0;
+    	margin: 0;
+	}
+.menu
+	{
+		margin-left: 165px;
+		margin-top: -45px;
+	}
+.menu li
+	{
+    	float: left;
+    	list-style: none;
+    	position: relative;
+	}
+.menu li a
+	{
+    	width: 100px;
+    	height: 30px;
+    	display: block;
+    	text-decoration: none;
+    	background-color: #000;
+    	color: white;
+    	text-align: center;
+    	line-height: 30px;
+	}
+.menu li a:hover
+	{
+    	background-color: #96000e;
+	}
+.menu ul ul
+	{
+    	visibility: hidden;
+    	position: absolute;
+    	top: 40px;
+    	color:white;
+    	margin-left: -40px;
+	}
+.menu ul li ul
+	{
+		opacity: 0;
+	}
+.menu ul li:hover ul
+	{
+    	visibility: visible;
+    	opacity: 0.75;
+	}
+.homepage
+	{
+		font-size: 30px;
+	}
+h1
+	{
+		display: inline;
+	}
+h2
+	{
+		line-height: 15px;
+	}
+h4
+	{
+		font-weight: lighter;
+	}
+h4 a
+	{
+		font-style: italic;
+	}
+h5
+	{
+		color:#ffffff;
+		padding-bottom: 0px;
+		padding-top: 12px;
+		padding-left: 30px;
+	}
+.info
+	{
+		color:#4c4c4c;
+		padding:25px;
+	}
+.info a
+	{
+		text-decoration: none;
+		color:#4c4c4c;
+	}
+.info a:hover
+	{
+		border-bottom: 2px solid #4c4c4c;
+	}
+.map
+	{
+		height: 600px;
+		width: 400px;
+		float: right;
+		margin-top:-100px;
+		margin-right: 20px;
+	}
+.detail
+	{
+		width: 750px;
+		height: 465px;
+	}
+.head
+	{
+		line-height: 0px;
+	}
+.contact
+	{
+		margin-top: 35px;
+	}
+.footer
+	{
+		margin-top: -22px;
+		height: 40px;
+	}
+.gallary
+	{
+		display: inline;
+	}
+.gallary a:hover
+	{
+		border-bottom: 0px;
+	}
+.photo
+	{
+		width: 250px;
+		height: 150px;
+		margin-left: 75px;
+		margin-top: 10px;
+	}
+span
+	{
+		font-size: 16px;
+		padding-left: 25px;
+	}

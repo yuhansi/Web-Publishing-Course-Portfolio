@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TechFinder</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style type="text/css">
+	.frontpage
+  {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+	.container
+  {
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+  }
+	.sidenav
+  {
+    height:98%;
+    width:200px;
+    position:fixed !important;
+    z-index:1;
+    overflow:auto;
+  }
+	.sidenav a
+  {
+    padding:4px 16px;
+  }
+	.sidenav a:hover
+  {
+    background-color:#cccccc;
+  }
+	.sidenav a
+  {
+    display:block;
+    transition:.3s;
+  }
+	.sidenav a
+  {
+    text-decoration:none !important;
+  }
+	.card-2
+  {
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+  }
+	.teal
+  {
+    color:#fff !important;
+    background-color:#4b7c8a !important;
+  }
+	.white
+  {
+    color:#000 !important;
+    background-color:#fff !important;
+  }
+  .button
+  {
+    position: absolute;
+    bottom: 350px;
+    left: 615px;
+    width: 400px;
+    height: 50px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+  }
+  .buttontext
+  {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0px;
+  }
+  #browse
+  {
+    text-decoration: none;
+    color:#ffffff;
+  }
+  .button:hover
+  {
+    background-color: #000000;
+    opacity: 0.75;
+    transition:.3s;
+  }
+
+  #test img
+  {
+    position:absolute;
+    left:0;
+  }
+
+  @-webkit-keyframes imgFade
+  {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+  @-moz-keyframes imgFade
+  {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+  @-o-keyframes imgFade
+  {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+  @keyframes imgFade
+  {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+  #test img
+  {
+     -webkit-animation-name: imgFade;
+     -webkit-animation-timing-function: ease-in-out;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-duration: 16s;
+
+     -moz-animation-name: imgFade;
+     -moz-animation-timing-function: ease-in-out;
+     -moz-animation-iteration-count: infinite;
+     -moz-animation-duration: 16s;
+
+     -o-animation-name: imgFade;
+     -o-animation-timing-function: ease-in-out;
+     -o-animation-iteration-count: infinite;
+     -o-animation-duration: 16s;
+
+     animation-name: imgFade;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+     animation-duration: 16s;
+}
+  #test img:nth-of-type(1)
+  {
+     -webkit-animation-delay: 12s;
+     -moz-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  animation-delay: 12s;
+}
+#test img:nth-of-type(2)
+{
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  animation-delay: 8s;
+}
+#test img:nth-of-type(3)
+{
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s;
+}
+#test img:nth-of-type(4)
+{
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+</style>
+<body>
+	<div class="frontpage">
+	<nav class="sidenav white card-2" style="width:14%">
+  	<header class="container">
+  	<h5 style="font-weight: bold; font-size: 24px; color:#4b7c8a;">Homepage</h5>
+  	</header>
+  	<a href="#" style="color:#4b7c8a">About</a>
+  	<a href="Browse.html" style="color:#4b7c8a">Browse</a>
+  	<a href="#" style="color:#4b7c8a">Contact Us</a>
+	</nav>
+
+	<div id="main" style="margin-left:15%">
+
+		<header class="container teal card-2">
+			<br/>
+  			<h1 style="color:#ffffff; font-size: 36px; line-height: 0px;">TechFinder<span style="font-size: 12px;">[college edition]</span></h1>
+  			<p style="color:#ffffff; font-size: 20px; line-height: 5px;">the totalfinder for tech events</p>
+  			<br/>
+		</header>
+
+		<div class="container">
+		<div id="test">
+    		<img src="1.jpg" style="width: 1160px; height: 585px; margin-left: 225px; margin-right: 300px;">
+    		<img src="2.jpg" style="width: 1160px; height: 585px; margin-left: 225px; margin-right: 300px;">
+    		<img src="3.jpg" style="width: 1160px; height: 585px; margin-left: 225px; margin-right: 300px;">
+    		<img src="4.jpg" style="width: 1160px; height: 585px; margin-left: 225px; margin-right: 300px;">
+		</div>
+		</div>
+		<div class="button">
+		    <p class="buttontext"><a id="browse" href="Browse.html">What to find something amazing?</a></p>
+		</div>
+
+		<footer class="container teal card-2" style="margin-top: 585px;">
+  			<h5 style="color:#ffffff">&copy 2015 TechFinder</h5>
+		</footer>
+
+	</div>
+    </div>
+</body>
+</html>

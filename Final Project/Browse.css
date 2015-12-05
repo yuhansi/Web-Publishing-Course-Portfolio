@@ -1,0 +1,382 @@
+	.frontpage
+  {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+	.container
+  {
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+  }
+	.sidenav
+  {
+    height:98%;
+    width:200px;
+    position:fixed !important;
+    z-index:1;
+    overflow:auto;
+  }
+	.sidenav a
+  {
+    padding:4px 16px;
+  }
+	.sidenav a:hover
+  {
+    background-color:#cccccc;
+  }
+	.sidenav a
+  {
+    display:block;
+    transition:.3s;
+  }
+	.sidenav a
+  {
+    text-decoration:none !important;
+  }
+	.card-2
+  {
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+  }
+	.teal
+  {
+    color:#fff !important;
+    background-color:#4b7c8a !important;
+  }
+	.white
+  {
+    color:#000 !important;
+    background-color:#fff !important;
+  }
+  #browse
+  {
+    text-decoration: none;
+    color:#ffffff;
+  }
+.browse1
+{
+	margin-left: 50px;
+	margin-top: -10px;
+	width: 525px;
+	height: 270px;
+	text-align: center;
+}
+.browse2
+{
+	text-align: center;
+	margin-left: 600px;
+	margin-top: -292px;
+	width: 525px;
+	height: 270px;
+}
+.browse3
+{
+	width: 525px;
+	height: 270px;
+	margin-left: 50px;
+	text-align: center;
+}
+.browse4
+{
+	width: 525px;
+	height: 270px;
+	margin-left: 600px;
+	margin-top: -291px;
+	text-align: center;
+}
+#conference img
+{
+	position:absolute;
+	left:0;
+}
+@-webkit-keyframes imgFade
+{
+0% {
+	opacity:1;
+}
+17% {
+	opacity:1;
+}
+25% {
+	opacity:0;
+}
+92% {
+	opacity:0;
+}
+100% {
+	opacity:1;
+}
+}
+
+@-moz-keyframes imgFade
+{
+0% {
+	opacity:1;
+}
+17% {
+	opacity:1;
+}
+25% {
+	opacity:0;
+}
+92% {
+	opacity:0;
+}
+100% {
+	opacity:1;
+}
+}
+
+@-o-keyframes imgFade
+{
+0% {
+	opacity:1;
+}
+17% {
+	opacity:1;
+}
+25% {
+	opacity:0;
+}
+92% {
+	opacity:0;
+}
+100% {
+	opacity:1;
+}
+}
+
+@keyframes imgFade
+{
+0% {
+	opacity:1;
+}
+17% {
+	opacity:1;
+}
+25% {
+	opacity:0;
+}
+92% {
+	opacity:0;
+}
+100% {
+	opacity:1;
+}
+}
+
+#conference img
+{
+	 -webkit-animation-name: imgFade;
+	 -webkit-animation-timing-function: ease-in-out;
+	 -webkit-animation-iteration-count: infinite;
+	 -webkit-animation-duration: 16s;
+
+	 -moz-animation-name: imgFade;
+	 -moz-animation-timing-function: ease-in-out;
+	 -moz-animation-iteration-count: infinite;
+	 -moz-animation-duration: 16s;
+
+	 -o-animation-name: imgFade;
+	 -o-animation-timing-function: ease-in-out;
+	 -o-animation-iteration-count: infinite;
+	 -o-animation-duration: 16s;
+
+	 animation-name: imgFade;
+	 animation-timing-function: ease-in-out;
+	 animation-iteration-count: infinite;
+	 animation-duration: 16s;
+}
+#conference img:nth-of-type(1)
+{
+	 -webkit-animation-delay: 12s;
+	 -moz-animation-delay: 12s;
+-o-animation-delay: 12s;
+animation-delay: 12s;
+}
+#conference img:nth-of-type(2)
+{
+-webkit-animation-delay: 8s;
+-moz-animation-delay: 8s;
+-o-animation-delay: 8s;
+animation-delay: 8s;
+}
+#conference img:nth-of-type(3)
+{
+-webkit-animation-delay: 4s;
+-moz-animation-delay: 4s;
+-o-animation-delay: 4s;
+animation-delay: 4s;
+}
+#conference img:nth-of-type(4)
+{
+-webkit-animation-delay: 0;
+-moz-animation-delay: 0;
+-o-animation-delay: 0;
+animation-delay: 0;
+}
+#hackathon img
+{
+	position:absolute;
+	left:0;
+}
+#hackathon img
+{
+	 -webkit-animation-name: imgFade;
+	 -webkit-animation-timing-function: ease-in-out;
+	 -webkit-animation-iteration-count: infinite;
+	 -webkit-animation-duration: 16s;
+
+	 -moz-animation-name: imgFade;
+	 -moz-animation-timing-function: ease-in-out;
+	 -moz-animation-iteration-count: infinite;
+	 -moz-animation-duration: 16s;
+
+	 -o-animation-name: imgFade;
+	 -o-animation-timing-function: ease-in-out;
+	 -o-animation-iteration-count: infinite;
+	 -o-animation-duration: 16s;
+
+	 animation-name: imgFade;
+	 animation-timing-function: ease-in-out;
+	 animation-iteration-count: infinite;
+	 animation-duration: 16s;
+}
+#hackathon img:nth-of-type(1)
+{
+	 -webkit-animation-delay: 12s;
+	 -moz-animation-delay: 12s;
+-o-animation-delay: 12s;
+animation-delay: 12s;
+}
+#hackathon img:nth-of-type(2)
+{
+-webkit-animation-delay: 8s;
+-moz-animation-delay: 8s;
+-o-animation-delay: 8s;
+animation-delay: 8s;
+}
+#hackathon img:nth-of-type(3)
+{
+-webkit-animation-delay: 4s;
+-moz-animation-delay: 4s;
+-o-animation-delay: 4s;
+animation-delay: 4s;
+}
+#hackathon img:nth-of-type(4)
+{
+-webkit-animation-delay: 0;
+-moz-animation-delay: 0;
+-o-animation-delay: 0;
+animation-delay: 0;
+}
+#expo img
+{
+	position:absolute;
+	left:0;
+}
+#expo img
+{
+	 -webkit-animation-name: imgFade;
+	 -webkit-animation-timing-function: ease-in-out;
+	 -webkit-animation-iteration-count: infinite;
+	 -webkit-animation-duration: 16s;
+
+	 -moz-animation-name: imgFade;
+	 -moz-animation-timing-function: ease-in-out;
+	 -moz-animation-iteration-count: infinite;
+	 -moz-animation-duration: 16s;
+
+	 -o-animation-name: imgFade;
+	 -o-animation-timing-function: ease-in-out;
+	 -o-animation-iteration-count: infinite;
+	 -o-animation-duration: 16s;
+
+	 animation-name: imgFade;
+	 animation-timing-function: ease-in-out;
+	 animation-iteration-count: infinite;
+	 animation-duration: 16s;
+}
+#expo img:nth-of-type(1)
+{
+	 -webkit-animation-delay: 12s;
+	 -moz-animation-delay: 12s;
+-o-animation-delay: 12s;
+animation-delay: 12s;
+}
+#expo img:nth-of-type(2)
+{
+-webkit-animation-delay: 8s;
+-moz-animation-delay: 8s;
+-o-animation-delay: 8s;
+animation-delay: 8s;
+}
+#expo img:nth-of-type(3)
+{
+-webkit-animation-delay: 4s;
+-moz-animation-delay: 4s;
+-o-animation-delay: 4s;
+animation-delay: 4s;
+}
+#expo img:nth-of-type(4)
+{
+-webkit-animation-delay: 0;
+-moz-animation-delay: 0;
+-o-animation-delay: 0;
+animation-delay: 0;
+}
+#others img
+{
+	position:absolute;
+	left:0;
+}
+#others img
+{
+	 -webkit-animation-name: imgFade;
+	 -webkit-animation-timing-function: ease-in-out;
+	 -webkit-animation-iteration-count: infinite;
+	 -webkit-animation-duration: 16s;
+
+	 -moz-animation-name: imgFade;
+	 -moz-animation-timing-function: ease-in-out;
+	 -moz-animation-iteration-count: infinite;
+	 -moz-animation-duration: 16s;
+
+	 -o-animation-name: imgFade;
+	 -o-animation-timing-function: ease-in-out;
+	 -o-animation-iteration-count: infinite;
+	 -o-animation-duration: 16s;
+
+	 animation-name: imgFade;
+	 animation-timing-function: ease-in-out;
+	 animation-iteration-count: infinite;
+	 animation-duration: 16s;
+}
+#others img:nth-of-type(1)
+{
+	 -webkit-animation-delay: 12s;
+	 -moz-animation-delay: 12s;
+-o-animation-delay: 12s;
+animation-delay: 12s;
+}
+#others img:nth-of-type(2)
+{
+-webkit-animation-delay: 8s;
+-moz-animation-delay: 8s;
+-o-animation-delay: 8s;
+animation-delay: 8s;
+}
+#others img:nth-of-type(3)
+{
+-webkit-animation-delay: 4s;
+-moz-animation-delay: 4s;
+-o-animation-delay: 4s;
+animation-delay: 4s;
+}
+#others img:nth-of-type(4)
+{
+-webkit-animation-delay: 0;
+-moz-animation-delay: 0;
+-o-animation-delay: 0;
+animation-delay: 0;
+}
